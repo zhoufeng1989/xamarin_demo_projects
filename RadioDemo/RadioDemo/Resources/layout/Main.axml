@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/donaRadio"
+                android:text="Donatello"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="radioClicked" />
+            <RadioButton
+                android:id="@+id/leoRadio"
+                android:text="Leonardo"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioClicked" />
+            <RadioButton
+                android:id="@+id/mikeRadio"
+                android:text="Michelangelo"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioClicked" />
+            <RadioButton
+                android:id="@+id/raphRadio"
+                android:text="Raphael"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="radioClicked" />
+        </RadioGroup>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/tmntImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tmntdon" />
+</LinearLayout>
