@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ArrayAdapterDemo</string>
+    <string-array name="words">
+        <item>Android</item>
+		<item>iOS</item>
+		<item>Windows Phone</item>
+	</string-array>
+    <string name="spinner_prompt">Mobile Platforms</string>
+</resources>
