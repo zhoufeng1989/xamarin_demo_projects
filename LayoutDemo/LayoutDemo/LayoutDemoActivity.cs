@@ -82,9 +82,17 @@ namespace LayoutDemo {
 
 
     [Activity(Label = "GridLayoutActivity")]
-    public class GridLayoutActivity : BackButtonActivity {
+    public class GridLayoutActivity : BackButtonActivity { 
 
         public override int LayoutId { get { return Resource.Layout.GridLayout; } }
+
+	}
+
+
+	[Activity(Label = "HorizontalLinearLayout")]
+    public class HorizontalLinearLayout : BackButtonActivity {
+
+        public override int LayoutId { get { return Resource.Layout.HorizontalLinearLayout; } }
 
 	}
 }

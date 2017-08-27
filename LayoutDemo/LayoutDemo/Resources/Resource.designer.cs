@@ -811,6 +811,15 @@ namespace LayoutDemo
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f09004d
+			public const int Button1 = 2131296333;
+			
+			// aapt resource value: 0x7f09004e
+			public const int Button2 = 2131296334;
+			
+			// aapt resource value: 0x7f09004f
+			public const int Button3 = 2131296335;
+			
 			// aapt resource value: 0x7f09001c
 			public const int action_bar = 2131296284;
 			
@@ -934,8 +943,8 @@ namespace LayoutDemo
 			// aapt resource value: 0x7f09002c
 			public const int expanded_menu = 2131296300;
 			
-			// aapt resource value: 0x7f09004f
-			public const int gridLayoutButton = 2131296335;
+			// aapt resource value: 0x7f090052
+			public const int gridLayoutButton = 2131296338;
 			
 			// aapt resource value: 0x7f090000
 			public const int home = 2131296256;
@@ -952,11 +961,11 @@ namespace LayoutDemo
 			// aapt resource value: 0x7f090027
 			public const int image = 2131296295;
 			
-			// aapt resource value: 0x7f09004e
-			public const int layoutWeight2Button = 2131296334;
+			// aapt resource value: 0x7f090051
+			public const int layoutWeight2Button = 2131296337;
 			
-			// aapt resource value: 0x7f09004d
-			public const int layoutWeightButton = 2131296333;
+			// aapt resource value: 0x7f090050
+			public const int layoutWeightButton = 2131296336;
 			
 			// aapt resource value: 0x7f090006
 			public const int listMode = 2131296262;
@@ -1156,16 +1165,19 @@ namespace LayoutDemo
 			public const int GridLayout = 2130903064;
 			
 			// aapt resource value: 0x7f030019
-			public const int LayoutWeight = 2130903065;
+			public const int HorizontalLinearLayout = 2130903065;
 			
 			// aapt resource value: 0x7f03001a
-			public const int LayoutWeight2 = 2130903066;
+			public const int LayoutWeight = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int Main = 2130903067;
+			public const int LayoutWeight2 = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int support_simple_spinner_dropdown_item = 2130903068;
+			public const int Main = 2130903068;
+			
+			// aapt resource value: 0x7f03001d
+			public const int support_simple_spinner_dropdown_item = 2130903069;
 			
 			static Layout()
 			{

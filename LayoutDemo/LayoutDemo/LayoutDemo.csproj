@@ -70,6 +70,7 @@
     <AndroidResource Include="Resources\layout\LayoutWeight.axml" />
     <AndroidResource Include="Resources\layout\LayoutWeight2.axml" />
     <AndroidResource Include="Resources\layout\GridLayout.axml" />
+    <AndroidResource Include="Resources\layout\HorizontalLinearLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />
