@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/readFileFromAssetsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read file from assets" />
+    <Button
+        android:id="@+id/saveFileToInternalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save file to internal storage" />
+    <Button
+        android:id="@+id/loadFileFromInternalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load file from internal storage" />
+    <Button
+        android:id="@+id/saveFileToExternalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save file to external storage" />
+    <Button
+        android:id="@+id/loadFileFromExternalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load file from external storage" />
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="File operation shows here" />
+</LinearLayout>
